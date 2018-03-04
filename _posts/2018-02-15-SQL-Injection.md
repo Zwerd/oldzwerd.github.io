@@ -498,4 +498,5 @@ To work around that case we going to use sqlmap, first of all I want you to read
 
 
 ### Videos in Hebrew about SQL injection:
-[![Watch the video](/assets/images/CyBug.png)](https://drive.google.com/open?id=1k9_ySNSlT8T9o0Vu-qLaJ2q6M_z8OTvQ)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wb0RaqskD5s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
