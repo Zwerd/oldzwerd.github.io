@@ -36,8 +36,9 @@ fly.src = 'sounds/fly.mp3'
 scor.src = 'sounds/score.mp3'
 
 // on key down
-
+document.addEventListener('onkeydown', moveUp)
 document.addEventListener('click', moveUp)
+
 
 function moveUp() {
   bY -= 25
