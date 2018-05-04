@@ -40,6 +40,7 @@ On this quiz you will find question that I found on the web and more question th
 ### JavaScript - quiz:
 
 <script src="/scripts/quiz.js"></script>
+<link rel="stylesheet" href="/scripts/quiz.css" />
 <form id = "quiz" name = "quiz">
 
   <p class = "questions">1. Inside which HTML element do we put the JavaScript?</p>
