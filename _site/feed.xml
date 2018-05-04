@@ -1,20 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-30T12:41:31+03:00</updated><id>http://localhost:4000/</id><title type="html">Guy Zwerdling</title><subtitle>A stunning blog of freaking PT warrior</subtitle><author><name>Guy Zwerdling</name></author><entry><title type="html">JavaScript Tutorials.</title><link href="http://localhost:4000/2018/04/22/javascript-tutorial.html" rel="alternate" type="text/html" title="JavaScript Tutorials." /><published>2018-04-22T00:00:00+03:00</published><updated>2018-04-22T00:00:00+03:00</updated><id>http://localhost:4000/2018/04/22/javascript-tutorial</id><content type="html" xml:base="http://localhost:4000/2018/04/22/javascript-tutorial.html">&lt;p&gt;It’s been awhile, after I done work on my SQLi I tried to learn XSS and how it work, I found it fascinating! but I felt like I need more strong base knowledge about JavaScript to do my magic stuff. after week or two I decided to make my on tutorials about JS and this time in Hebrew, I learn a lot! and originally I wrote that tutorial for Michael which is a friend but unfortunately he give up on JS studies from some stuff else.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-04T12:03:03+03:00</updated><id>http://localhost:4000/</id><title type="html">Guy Zwerdling</title><subtitle>A stunning blog of freaking PT warrior</subtitle><author><name>Guy Zwerdling</name></author><entry><title type="html">JavaScript - the future of programming.</title><link href="http://localhost:4000/2018/04/22/javascript-tutorial.html" rel="alternate" type="text/html" title="JavaScript - the future of programming." /><published>2018-04-22T00:00:00+03:00</published><updated>2018-04-22T00:00:00+03:00</updated><id>http://localhost:4000/2018/04/22/javascript-tutorial</id><content type="html" xml:base="http://localhost:4000/2018/04/22/javascript-tutorial.html">&lt;p&gt;It’s been awhile, after I done with my SQLi project I start to learn XSS, I found it fascinating! but I felt like I need more strong base knowledge about JavaScript to do my magic stuff. after a week or two I decided to make my on tutorials video about JS and this time in Hebrew, from that project I was learn a lot!&lt;/p&gt;
+
+&lt;p&gt;Originally I wrote that tutorial for Michael which is a friend but unfortunately he give up on JS studies for some unknown reason.&lt;/p&gt;
 
 &lt;p&gt;So here I am finding myself work on some tutorial that is basically designed for me lol!&lt;/p&gt;
 
-&lt;p&gt;On that tutorial I am working and learn every filed and chapter through w3schools, and in more few days I will be ready to take the exam.&lt;/p&gt;
+&lt;p&gt;I have 3 goals in the next few weeks, first of all I want to do the JS exam that w3schools offers, with this exam I can examine my knowledge in JavaScript and I will feel comfortable with that.&lt;/p&gt;
 
-&lt;p&gt;The tutorial contain also some challenges that I found on the net and we solved it together, after that we will start to develop our won game! and do some more cool stuff.&lt;/p&gt;
+&lt;p&gt;The second goal is to pass succesfully the GWAPT exam which examine your knowledge in web application penetration testing, for XSS attack and XSRF, the best you can do for your self is to concentrate on JavaScript knowledge because it’s (web attacks - especially XSS &amp;amp; XSRF) have a great deal with JavaScript.&lt;/p&gt;
+
+&lt;p&gt;The third goal is to pass the OSCP exam which examine your knowledge in the world of penetration testing.&lt;/p&gt;
+
+&lt;p&gt;On my JavaScript tutorial I am teach every filed and chapter through w3schools, and in more few days I will be ready to take the exam.&lt;/p&gt;
+
+&lt;p&gt;The tutorial contain also some challenges that I found on the web and we solved it together, after that we will start to develop our won game! and do some more cool stuff.&lt;/p&gt;
 
 &lt;p&gt;I love JS, It is fun and challenge my mind how to do big stuff in short mount of time.&lt;/p&gt;
+
+&lt;p&gt;To help myself to preper the exam, I build some test with many question about JavaScript and hope it’s will help every one who watch this tutorial and want to take the exam too.&lt;/p&gt;
 
 &lt;h3 id=&quot;javascript---the-first-video-about-the-tutorial&quot;&gt;JavaScript - the first video about the tutorial:&lt;/h3&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2bJtEFba6zI&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;Good luck!&lt;/p&gt;
+&lt;p&gt;So like I said that tutorial is build in such a way to help me to pass the exam, but to be sure enough that I will succeed to pass the exam I made some self test to check my (or your) knowledge.&lt;/p&gt;
 
-&lt;p&gt;Guy Zwerdling&lt;/p&gt;</content><author><name>Guy Zwerdling</name></author><category term="JavaScript" /><summary type="html">I tried to do my best but the days are the same, I'm still in my home without a job and I don't know why but I am still work on my studies and know I am learning JS from zero to HERO!! If you want to do the same pales join me!</summary></entry><entry><title type="html">SQL Injection</title><link href="http://localhost:4000/2018/02/15/SQL-Injection.html" rel="alternate" type="text/html" title="SQL Injection" /><published>2018-02-15T00:00:00+02:00</published><updated>2018-02-15T00:00:00+02:00</updated><id>http://localhost:4000/2018/02/15/SQL-Injection</id><content type="html" xml:base="http://localhost:4000/2018/02/15/SQL-Injection.html">&lt;p&gt;SQL or Structured Query Language is a way to store and pullout data from database and it’s fairly easy because it’s like English actually, you can write things like &lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT * FROM thistable&lt;/code&gt; and every such command will bring up to you results from the database and this was the way to store things in websites and still does for many years.&lt;/p&gt;
+&lt;p&gt;On this quiz you will find question that I found on the web and more question that I made, if you have some issue with some question please feel free to contact me.&lt;/p&gt;
+
+&lt;h3 id=&quot;javascript---quiz&quot;&gt;JavaScript - quiz:&lt;/h3&gt;
+
+&lt;script src=&quot;/scripts/quiz.js&quot;&gt;&lt;/script&gt;
+
+&lt;form id=&quot;quiz&quot; name=&quot;quiz&quot;&gt;
+
+  &lt;p class=&quot;questions&quot;&gt;1. Inside which HTML element do we put the JavaScript?&lt;/p&gt;
+  &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q1&quot; value=&quot;1&quot; /&gt;&amp;lt;script&amp;gt;&lt;br /&gt;
+  &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q1&quot; value=&quot;0&quot; /&gt;&amp;lt;js&amp;gt;&lt;br /&gt;
+  &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q1&quot; value=&quot;0&quot; /&gt;&amp;lt;javascript&amp;gt;&lt;br /&gt;
+  &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q1&quot; value=&quot;0&quot; /&gt;&amp;lt;code&amp;gt;&lt;br /&gt;
+  &lt;br /&gt;
+
+  &lt;p class=&quot;questions&quot;&gt;2. What is the correct JavaScript syntax to change the content of the HTML element below?
+  &lt;br /&gt;
+  &amp;lt;p id=&quot;demo&quot;&amp;gt;This is a demonstration.&amp;lt;/p&amp;gt;
+  &lt;/p&gt;
+  &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q2&quot; value=&quot;0&quot; /&gt; document.getElement(&quot;p&quot;).innerHTML = &quot;Hello World!&quot;;&lt;br /&gt;
+  &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q2&quot; value=&quot;0&quot; /&gt;#demo.innerHTML = &quot;Hello World!&quot;;&lt;br /&gt;
+  &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q2&quot; value=&quot;0&quot; /&gt;document.getElementByName(&quot;p&quot;).innerHTML = &quot;Hello World!&quot;;&lt;br /&gt;
+  &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q2&quot; value=&quot;1&quot; /&gt;document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello World!&quot;;&lt;br /&gt;
+
+
+
+
+
+
+  &lt;input id=&quot;button&quot; type=&quot;button&quot; value=&quot;I'm finished!&quot; onclick=&quot;check();&quot; /&gt;
+  &lt;p id=&quot;answer&quot;&gt;&lt;/p&gt;
+
+&lt;/form&gt;</content><author><name>Guy Zwerdling</name></author><category term="JavaScript" /><summary type="html">It's been awhile, after I done with my SQLi project I start to learn XSS, I found it fascinating! but I felt like I need more strong base knowledge about JavaScript to do my magic stuff. after a week or two I decided to make my on tutorials video about JS and this time in Hebrew, from that project I was learn a lot!</summary></entry><entry><title type="html">SQL Injection</title><link href="http://localhost:4000/2018/02/15/SQL-Injection.html" rel="alternate" type="text/html" title="SQL Injection" /><published>2018-02-15T00:00:00+02:00</published><updated>2018-02-15T00:00:00+02:00</updated><id>http://localhost:4000/2018/02/15/SQL-Injection</id><content type="html" xml:base="http://localhost:4000/2018/02/15/SQL-Injection.html">&lt;p&gt;SQL or Structured Query Language is a way to store and pullout data from database and it’s fairly easy because it’s like English actually, you can write things like &lt;code class=&quot;highlighter-rouge&quot;&gt;SELECT * FROM thistable&lt;/code&gt; and every such command will bring up to you results from the database and this was the way to store things in websites and still does for many years.&lt;/p&gt;
 
 &lt;p&gt;If we talking about injection you may know that inject some code is not related only to SQL, you can actually to do so with various programing language of course it depend on how the programmer developed that site, but if he or she not care enough about the little things in that code, we may find some way to inject some unwanted code to the website.&lt;/p&gt;
 
