@@ -60,8 +60,16 @@ On this quiz you will find question that I found on the web and more question th
   <input type = "radio" id = "mc" name = "q2" value = "1">document.getElementById("demo").innerHTML = "Hello World!";<br>
 
 
+  <p class = "questions">3. Where is the correct place to insert a JavaScript?</p>
+  <input type = "radio" id = "mc" name = "q3" value = "1">&lt;script&gt;<br>
+  <input type = "radio" id = "mc" name = "q3" value = "0">&lt;js&gt;<br>
+  <input type = "radio" id = "mc" name = "q3" value = "0">&lt;javascript&gt;<br>
+  <input type = "radio" id = "mc" name = "q3" value = "0">&lt;code&gt;<br>
+  <br>
 
-
+  The <body> section
+   Both the <head> section and the <body> section are correct
+   The <head> section
 
 
   <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
