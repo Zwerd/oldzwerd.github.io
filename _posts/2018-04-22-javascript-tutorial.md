@@ -38,5 +38,5 @@ So like I said that tutorial is build in such a way to help me to pass the exam,
 On this quiz you will find question that I found on the web and more question that I made, if you have some issue with some question please feel free to contact me.
 
 ### JavaScript - quiz:
-s
+
 <object width="1000" height="800" data="/scripts/quiz.html"></object>
