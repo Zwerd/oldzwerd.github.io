@@ -40,7 +40,6 @@ On this quiz you will find question that I found on the web and more question th
 ### JavaScript - quiz:
 
 <form id="quiz" name="quiz">
-<script src="quiz.js"></script>
 <link rel="stylesheet" href="/scripts/quiz.css" />
   <p class="questions">1. Inside which HTML element do we put the JavaScript?</p>
   <input type="radio" id="mc" name="q1" value="1" />&lt;script&gt;<br />
@@ -66,9 +65,11 @@ On this quiz you will find question that I found on the web and more question th
 <input type="radio" id="mc" name="q3" value="0">none of the answers are correct<br>
 <br>
 
-  <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
-  <p id="answer"></p>
-</form>
 
-<div id="test">check</div>
-<script src="/js/jsinsertfile.js"></script>
+
+
+
+<br>
+<input id = "button" type = "button" value = "End The Exam!" style="font-size:20px" onclick = "check();">
+<p id="answer"></p>
+</form>
