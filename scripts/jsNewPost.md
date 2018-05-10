@@ -38,5 +38,37 @@ So like I said that tutorial is build in such a way to help me to pass the exam,
 On this quiz you will find question that I found on the web and more question that I made, if you have some issue with some question please feel free to contact me.
 
 ### JavaScript - quiz:
-s
-<object width="1000" height="800" data="/scripts/quiz.html"></object>
+
+<form id="quiz" name="quiz">
+<script src="quiz.js"></script>
+<link rel="stylesheet" href="/scripts/quiz.css" />
+  <p class="questions">1. Inside which HTML element do we put the JavaScript?</p>
+  <input type="radio" id="mc" name="q1" value="1" />&lt;script&gt;<br />
+  <input type="radio" id="mc" name="q1" value="0" />&lt;js&gt;<br />
+  <input type="radio" id="mc" name="q1" value="0" />&lt;javascript&gt;<br />
+  <input type="radio" id="mc" name="q1" value="0" />&lt;code&gt;<br />
+  <br />
+
+  <p class="questions">2. What is the correct JavaScript syntax to change the content of the HTML element below?
+  <br />
+  &lt;p id="demo"&gt;This is a demonstration.&lt;/p&gt;
+  </p>
+  <input type="radio" id="mc" name="q2" value="0" /> document.getElement("p").innerHTML = "Hello World!";<br />
+  <input type="radio" id="mc" name="q2" value="0" />#demo.innerHTML = "Hello World!";<br />
+  <input type="radio" id="mc" name="q2" value="0" />document.getElementByName("p").innerHTML = "Hello World!";<br />
+  <input type="radio" id="mc" name="q2" value="1" />document.getElementById("demo").innerHTML = "Hello World!";<br /><br />
+
+
+<p class = "questions">3.What is boolean?</p>
+<input type="radio" id="mc" name="q3" value="0">It is some positive value<br>
+<input type="radio" id="mc" name="q3" value="1">It is some value base on True or False<br>
+<input type="radio" id="mc" name="q3" value="0">t's a binary value that can be 0 or 1<br>
+<input type="radio" id="mc" name="q3" value="0">none of the answers are correct<br>
+<br>
+
+  <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+  <p id="answer"></p>
+</form>
+
+<div id="test">check</div>
+<script src="/js/jsinsertfile.js"></script>

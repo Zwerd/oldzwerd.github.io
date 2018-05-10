@@ -13,7 +13,7 @@
 
   <title>
     
-      Guy Zwerdling &middot; zwerd.com
+      JavaScript - the future of programming. &middot; Guy Zwerdling
     
   </title>
 
@@ -38,14 +38,14 @@
 </head>
 
 
-  <body class="index">
+  <body class="post">
 
     <div id="sidebar">
   <div class="sidebar-mugshot">
       <img src="/assets/images/logo.gif" alt="Guy Zwerdling">
   </div>
   <header>
-    <h1 class="site-title">
+    <div class="site-title">
       <a href="/">
         
           <span class="back-arrow icon"><svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -55,7 +55,7 @@
         
         Guy Zwerdling
       </a>
-    </h1>
+    </div>
     <p class="lead">A stunning blog of freaking PT warrior</p>
   </header>
   <nav id="sidebar-nav-links">
@@ -341,111 +341,147 @@
 
 
     <main class="container">
-      <div class="content">
-  
-<div class="pagination">
-  <a class="pagination-item newer"
-     href="/page2">
-    Newer
-  </a>
-</div>
-
-
-
-  
-
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/2017/08/30/linux-ubuntu.html">
-        Linux Ubuntu
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">30 Aug 2017</span>
+      <header>
+  <h1 class="post-title">JavaScript - the future of programming.</h1>
+</header>
+<div class="content">
+  <div class="post-meta">
+  <span class="post-date"></span>
   <span class="post-categories">
     
   </span>
 </div>
 
-    
-      I love so much ubuntu because it so frendly lol, but realy, the reasens in my opinion why to used Ubuntu is because of the communities that support in ubuntu, it's important to understand that the biger the community, the better support, anless u wanna to be hard core in linux and that another immportant field
-In the passed week I worked on my 
-    
+  <div class="post-body">
+    <p>It’s been awhile, after I done with my SQLi project I start to learn XSS, I found it fascinating! but I felt like I need more strong base knowledge about JavaScript to do my magic stuff. after a week or two I decided to make my on tutorials video about JS and this time in Hebrew, from that project I was learn a lot!</p>
+
+<p>Originally I wrote that tutorial for Michael which is a friend but unfortunately he give up on JS studies for some unknown reason.</p>
+
+<p>So here I am finding myself work on some tutorial that is basically designed for me lol!</p>
+
+<p>I have 3 goals in the next few weeks, first of all I want to do the JS exam that w3schools offers, with this exam I can examine my knowledge in JavaScript and I will feel comfortable with that.</p>
+
+<p>The second goal is to pass succesfully the GWAPT exam which examine your knowledge in web application penetration testing, for XSS attack and XSRF, the best you can do for your self is to concentrate on JavaScript knowledge because it’s (web attacks - especially XSS &amp; XSRF) have a great deal with JavaScript.</p>
+
+<p>The third goal is to pass the OSCP exam which examine your knowledge in the world of penetration testing.</p>
+
+<p>On my JavaScript tutorial I am teach every filed and chapter through w3schools, and in more few days I will be ready to take the exam.</p>
+
+<p>The tutorial contain also some challenges that I found on the web and we solved it together, after that we will start to develop our won game! and do some more cool stuff.</p>
+
+<p>I love JS, It is fun and challenge my mind how to do big stuff in short mount of time.</p>
+
+<p>To help myself to preper the exam, I build some test with many question about JavaScript and hope it’s will help every one who watch this tutorial and want to take the exam too.</p>
+
+<h3 id="javascript---the-first-video-about-the-tutorial">JavaScript - the first video about the tutorial:</h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2bJtEFba6zI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>So like I said that tutorial is build in such a way to help me to pass the exam, but to be sure enough that I will succeed to pass the exam I made some self test to check my (or your) knowledge.</p>
+
+<p>On this quiz you will find question that I found on the web and more question that I made, if you have some issue with some question please feel free to contact me.</p>
+
+<h3 id="javascript---quiz">JavaScript - quiz:</h3>
+
+<form id="quiz" name="quiz">
+<script src="quiz.js"></script>
+<link rel="stylesheet" href="/scripts/quiz.css" />
+  <p class="questions">1. Inside which HTML element do we put the JavaScript?</p>
+  <input type="radio" id="mc" name="q1" value="1" />&lt;script&gt;<br />
+  <input type="radio" id="mc" name="q1" value="0" />&lt;js&gt;<br />
+  <input type="radio" id="mc" name="q1" value="0" />&lt;javascript&gt;<br />
+  <input type="radio" id="mc" name="q1" value="0" />&lt;code&gt;<br />
+  <br />
+
+  <p class="questions">2. What is the correct JavaScript syntax to change the content of the HTML element below?
+  <br />
+  &lt;p id="demo"&gt;This is a demonstration.&lt;/p&gt;
+  </p>
+  <input type="radio" id="mc" name="q2" value="0" /> document.getElement("p").innerHTML = "Hello World!";<br />
+  <input type="radio" id="mc" name="q2" value="0" />#demo.innerHTML = "Hello World!";<br />
+  <input type="radio" id="mc" name="q2" value="0" />document.getElementByName("p").innerHTML = "Hello World!";<br />
+  <input type="radio" id="mc" name="q2" value="1" />document.getElementById("demo").innerHTML = "Hello World!";<br /><br />
+
+
+<p class="questions">3.What is boolean?</p>
+<input type="radio" id="mc" name="q3" value="0" />It is some positive value<br />
+<input type="radio" id="mc" name="q3" value="1" />It is some value base on True or False<br />
+<input type="radio" id="mc" name="q3" value="0" />t's a binary value that can be 0 or 1<br />
+<input type="radio" id="mc" name="q3" value="0" />none of the answers are correct<br />
+<br />
+
+  <input id="button" type="button" value="I'm finished!" onclick="check();" />
+  <p id="answer"></p>
+</form>
+
+<div id="test">check</div>
+<script src="/js/jsinsertfile.js"></script>
+
 
     
-      
-      
-      
 
-      
-        <a href="/2017/08/30/linux-ubuntu.html">More &hellip;</a>
-      
-    
-  </article>
+
+
+<div class="post-tags">
   
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/2017/08/29/first-post.html">
-        First Post
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">29 Aug 2017</span>
-  <span class="post-categories">
     
-  </span>
+    <a href="/tags.html#javascript">
+    
+      <span class="icon">
+        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M17.63 5.84C17.27 5.33 16.67 5 16 5L5 5.01C3.9 5.01 3 5.9 3 7v10c0 1.1.9 1.99 2 1.99L16 19c.67 0 1.27-.33 1.63-.84L22 12l-4.37-6.16z"/>
+</svg>
+      </span>&nbsp;<span class="tag-name">JavaScript</span>
+    </a>
+  
 </div>
-
-    
-      Hello every one, this is my first blog at my first website, so, congratulations to myself! I think that because this is my first website that I develop by myself there is no beter place to tells my story. At the beginning I start my creer as Network technician at Israel Air Force, after three years I left the army and I find a job in Israel Ministry Of Healf, I worked there four years as Network and Security
-    
-
-    
-      
-      
-      
-
-      
-        <a href="/2017/08/29/first-post.html">More &hellip;</a>
-      
-    
-  </article>
-  
-  <article class="post-body">
-    <h2 class="post-title">
-      <a href="/2017/06/01/testing.html">
-        testing
-      </a>
-    </h2>
-    <div class="post-meta">
-  <span class="post-date">01 Jun 2017</span>
-  <span class="post-categories">
-    
-  </span>
-</div>
-
-    
-      Hydeout updates the original [Hyde](https://github.com/poole/hyde) theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
-
-### Keep It Simple
-
-In keeping with the original Hyde theme, Hydeout aims to keep the overall design lightweight and plugin-free. JavaScript is currently limited only to Disqus and Google Analytics (and is only loaded if you provide configuration variables).
-    
-
-    
-      
-      
-      
-
-      
-        <a href="/2017/06/01/testing.html">More &hellip;</a>
-      
-    
-  </article>
-  
+  </div>
 
   
+  <section class="comments">
+    <h2>Comments</h2>
+    
+  <div id="disqus_thread">
+    <button class="disqus-load" onClick="loadDisqusComments()">
+      Load Comments
+    </button>
+  </div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW
+  *  TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:s
+  *  https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  var disqus_config = function () {
+    this.page.url = "http://localhost:4000/scripts/jsNewPost.html";
+    this.page.identifier = "" ||
+                           "http://localhost:4000/scripts/jsNewPost.html";
+  }
+  function loadDisqusComments() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://zwerd-com.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript">comments powered by Disqus</a>.
+  </noscript>
+
+
+  </section>
+
+
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+  </ul>
+</section>
 
 </div>
 
