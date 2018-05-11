@@ -658,7 +658,7 @@ SELECT NULL, version();</code></pre></figure>
 
 <p>In our case I guess the hash value is md5 type so we can check in our linux machineand find a match, just type the command as follow:</p>
 
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nb">echo</span> <span class="nt">-n</span> password | md5sum</code></pre></figure>
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nb">echo</span> <span class="nt">-n</span> password | <span class="nb">md5sum</span></code></pre></figure>
 
 <p><img src="/assets/images/sql-injection-021.png" alt="sql-injection-021.png" />
 <strong>Figure 21</strong> Hash value.</p>
